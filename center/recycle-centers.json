@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Kloth Bins",
+    "location": "KLOTH MALAYSIA SDN BHD (1073740-T), 47-4, Jalan 51/205, The Highway Centre 46050",
+    "state": "Kuala Lumpur",
+    "link": "https://www.kloth.com.my/faq-find.html"
+  },
+
+  {
+    "name": "Dinkargo Recycle Kuching",
+    "location": "Jln Demak Indah, Sejingkat, 93050 Kuching ",
+    "state": "Sarawak",
+    "link": "https://www.facebook.com/dinkargosdnbhd/"
+  },
+
+  {
+    "name": "E-Waste Management",
+    "location": "No. 1, Lorong Perusahaan 1, Kawasan Perusahaan Perai, 13600 Perai",
+    "state": "Pulau Pinang",
+    "link": "https://ewaste.doe.gov.my/index.php/what-is-e-waste/"
+  },
+
+  {
+    "name": "IPC Recycling & Buy-back Centre",
+    "location": "Mutiara Damansara, 47820 Petaling Jaya",
+    "state": "Selangor",
+    "link": "https://www.ipc.com.my/services/recycling-buy-back-center/"
+  },
+
+  {
+    "name": "Apple PC Enterprise",
+    "location": "No. 19, Jalan Emas Putih, Taman Sri Putri, 81300 Skudai",
+    "state": "Johor",
+    "link": "https://applepc.com.my/"
+  },
+
+  {
+    "name": "Green  Resource Recovery Sdn Bhd",
+    "location": "Plot 19, Darul Aman Industrial Estate Bandar Darul Aman, 06000 Jitra",
+    "state": "Kedah",
+    "link": "https://www.facebook.com/GreenResourceRecoverySdnBhd/?locale=ms_MY"
+  },
+
+  {
+    "name": "Trash4cash (M) Sdn Bhd",
+    "location": "Lot 1821, Batu 8 Mukim Tajar, Jalan Dato Kumbar, 06500 Alor Setar",
+    "state": "Kedah",
+    "link": "https://www.facebook.com/trash4cashmy/?locale=ms_MY"
+  },
+
+  {
+    "name": "Aeon Bandaraya Melaka",
+    "location": "2, Jalan Lagenda Taman 1 Lagenda, 75400",
+    "state": "Melaka",
+    "link": "https://meriahtek.com.my/ewaste-centre.php"
+  },
+
+  {
+    "name": "Lotus's Cheng",
+    "location": "No. 1, Jalan Inang 3, Taman Paya Rumput, 75460",
+    "state": "Melaka",
+    "link": "https://meriahtek.com.my/ewaste-centre.php"
+  }
+]

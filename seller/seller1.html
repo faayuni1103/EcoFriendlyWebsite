@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Seller Center</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+	<div ng-app="myApp" ng-controller="sellerController">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Seller Center</h1>
+						<p>Buy Organic and Go Green Products</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images/lko.png" alt=""/></span>
+								<label for="stateFilter">Search by Category:</label>
+								<select name="type" id="type" ng-options="green for green in type" ng-model="selected" ng-change="filtertype()">
+									<option value="">All</option>
+							    </select>
+
+								<br>
+								<table ng-repeat="person in seller">
+									<tr>
+										<td colspan="2"><img src="{{ person.image }}"/></td>
+									</tr>
+									<thead>
+									<tr>
+										<th > {{ person.type }}</th>
+				
+									</tr>
+									</thead>
+									<div class="persondet">
+										<td> {{ person.name }} </td>
+										<td class="price"> RM {{ person.price }} </td>
+									</tr>
+									</div>
+									<tr>
+										<td colspan="2" ng-click="goShopee(person.shopee)"><a href="#" class="button primary fit">Buy at Shopee</a>
+										</tr></td>
+								</table>
+								</section>
+
+					</div>
+
+				<!-- Footer -->
+						<footer id="footer">
+							<section>
+								<h2>Group 8</h2>
+								<p>This website is made for our project from subject Multimedia Web Programming. We are proudly presenting the website to our lecturer, Dr. Pang Yee Yong.</p>
+								<ul class="actions">
+									<li><a href="../index.html" class="button">Learn More</a></li>
+								</ul>
+							</section>
+							<section>
+								<h2>Group Members</h2>
+								<dl class="alt">
+									<dt>Amirah binti Zulkifli</dt>
+									<dd>A20EC0012</dd>
+									<dt>Fatin Aimi Ayuni Binti Affindy</dt>
+									<dd>A20EC0190</dd>
+									<dt>Bilkis Musa</dt>
+									<dd>A20EC0233</dd>
+									<dt>Nurin Sofiya Binti Rosle</dt>
+									<dd>A20EC0240</dd>
+								</dl>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+								</ul>
+							</section>
+							<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+			<script src="seller.js"></script>
+
+	</div>		
+	</body>
+</html>

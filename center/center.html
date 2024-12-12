@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Find Recycling Center</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+	<div ng-app="centre" ng-controller="CentreCtrl">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Find Recycling Center</h1>
+						<p>Search state or set it</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<label for="stateFilter">Search by Name:</label>
+        						<input type="text" id="searchInput" ng-model="searchText" ng-change="filterCenters()">
+								<br>
+    
+								<label for="stateFilter">Filter by State:</label>
+								<select id="stateFilter" ng-model="selectedState" ng-change="filterCenters()">
+									<option value="">All</option>
+									<option ng-repeat="state in states" value="{{state}}">{{state}}</option>
+								</select>
+								
+								<br>
+								<h2>Results</h2>
+								<ul class="alt">
+									<li ng-repeat="center in filteredCenters">
+										<b><a href="{{center.link}}" target="_blank">{{center.name }}</b></a><br>
+										{{ center.location }}, {{center.state}}
+										<br><br>
+									</li>
+								</ul>
+						
+							</section>
+
+					</div>
+
+					<footer id="footer">
+						<section>
+							<h2>Group 8</h2>
+							<p>This website is made for our project from subject Multimedia Web Programming. We are proudly presenting the website to our lecturer, Dr. Pang Yee Yong.</p>
+							<ul class="actions">
+								<li><a href="../index.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Group Members</h2>
+							<dl class="alt">
+								<dt>Amirah binti Zulkifli</dt>
+								<dd>A20EC0012</dd>
+								<dt>Fatin Aimi Ayuni Binti Affindy</dt>
+								<dd>A20EC0190</dd>
+								<dt>Bilkis Musa</dt>
+								<dd>A20EC0233</dd>
+								<dt>Nurin Sofiya Binti Rosle</dt>
+								<dd>A20EC0240</dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+			<script src="centre.js"></script>
+
+	</div>		
+	</body>
+</html>

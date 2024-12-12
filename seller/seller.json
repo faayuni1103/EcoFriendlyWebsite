@@ -1,0 +1,55 @@
+[{
+    "type" : "organic",
+    "name" : "tomato",
+    "price" : "6.90",
+    "shopee" : "https://shp.ee/sezfpn7",
+    "image" : "/images/tomato.png"
+}, {
+    "type" : "hydroponic",
+    "name" : "lettuce",
+    "price" : "5.00",
+    "shopee" : "https://shp.ee/p664w9b",
+    "image" : "/images/lettuce.png"
+}, {
+    "type" : "organic",
+    "name" : "strawberry",
+    "price" : "14.00",
+    "shopee" : "https://shp.ee/2nvadxu",
+    "image" : "/images/strawberry.png"
+}, {
+    "type" : "organic",
+    "name" : "asparagus",
+    "price" : "29.99",
+    "shopee" : "https://shp.ee/zeva4si",
+    "image" : "/images/asparagus.png"
+}, {
+    "type" : "hydroponic",
+    "name" : "kale",
+    "price" : "3.80",
+    "shopee" : "https://shp.ee/48sqjeq",
+    "image" : "/images/kale.png"
+}, {
+    "type" : "organic",
+    "name" : "pineapple",
+    "price" : "4.50",
+    "shopee" : "https://shp.ee/xsur5nv",
+    "image" : "/images/pineapple.png"
+}, {
+    "type" : "organic",
+    "name" : "corn",
+    "price" : "2.80",
+    "shopee" : "https://shp.ee/hj33ikg",
+    "image" : "/images/corn.png"
+}, {
+    "type" : "hydroponic",
+    "name" : "spinach",
+    "price" : "5.00",
+    "shopee" : "https://shp.ee/jfi8pqz",
+    "image" : "/images/spinach.png"
+}, {
+    "type" : "organic",
+    "name" : "mango",
+    "price" : "7.50",
+    "shopee" : "https://shp.ee/jz2cp2k",
+    "image" : "/images/mango.png"
+}]
